@@ -1,0 +1,7 @@
+updates/waitdrv.ko:
+updates/procdrv.ko:
+updates/hello.ko:
+updates/chardriver.ko:
+updates/miscdrv.ko:
+updates/timerdrv.ko:
+updates/segments.ko:
