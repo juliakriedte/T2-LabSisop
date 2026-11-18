@@ -1,13 +1,10 @@
-# Configuracao do programa
 TARGET       = disk-test
 INSTALL_PATH = usr/bin
 
-## Configuracao de diretorios
 ROOT_DIR  = ../..
 TOOLCHAIN = $(ROOT_DIR)/output/host/bin
 OVERLAY   = $(ROOT_DIR)/overlay
 
-## Configuracao de ferramentas
 TRIPLET = $(TOOLCHAIN)/i686-buildroot-linux-gnu
 CC      = $(TRIPLET)-gcc
 
